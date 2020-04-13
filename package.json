@@ -1,0 +1,26 @@
+{
+  "name": "hapi-cassandra",
+  "version": "1.0.0",
+  "description": "The goal of this project is to create a very simple REST API on top of Cassandra tables.\r In this example, services are created and used by users at a defined date.\r In coming versions there will be more Cassandra and DataStax Enterprise features like TTL and Spark usage. An interface is also planned to play with the API.",
+  "main": "cassandra.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adp8ke/hapi-cassandra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adp8ke/hapi-cassandra/issues"
+  },
+  "homepage": "https://github.com/adp8ke/hapi-cassandra#readme",
+  "dependencies": {
+    "cassandra-driver": "^4.5.0",
+    "hapi": "^18.1.0",
+    "joi": "^14.3.1",
+    "nodemon": "^2.0.3"
+  }
+}

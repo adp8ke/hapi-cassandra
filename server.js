@@ -3,9 +3,8 @@ var Hapi = require('hapi');
 var services_routes = require('./services');
 
 // Create a server with a host and port
-var server = new Hapi.Server();
-  server.connection({
-  host: '0.0.0.0',
+var server = new Hapi.Server({
+  host: 'localhost',
   port: 3000
 });
 
